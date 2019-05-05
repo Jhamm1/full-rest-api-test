@@ -1,0 +1,3 @@
+app:
+  build: .
+  command: npm test test/run.js
