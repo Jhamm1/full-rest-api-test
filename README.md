@@ -17,6 +17,7 @@ Observations of the **JSONPlaceholder API** during testing:
 - The DELETE /posts/{Id} returns 200 and not 204, which deviates from REST principles as a DELETE endpoint returns no content in the response body.
 - Test data provided to the POST, PUT and PATCH endpoints are not persisted.
 - There is no validation implemented in the backend as it accepts data that deviates from the expected request payload schema and also that the user is unable to carry out testing endpoint validation (i.e. invalid request payload).
+- There is no version number in the URL of the API
 
 ## Test service
 
