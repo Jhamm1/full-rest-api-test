@@ -28,6 +28,7 @@
         "mocha": "^6.1.4",
         "mocha-html-reporter": "0.0.1",
         "mocha-junit-reporter": "^1.22.0",
+        "parse-json": "^4.0.0",
         "supertest": "^4.0.2"
     },
     "devDependencies": {

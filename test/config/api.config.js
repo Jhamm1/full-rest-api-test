@@ -1,3 +1,3 @@
 module.exports = {
-    url: 'https://reqres.in'
+    url: 'http://jsonplaceholder.typicode.com'
 }
