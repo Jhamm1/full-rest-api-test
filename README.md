@@ -34,9 +34,13 @@ Below is the folder structure of the service:
     ├── mochawesome-report
     ├── test
     	├── adapters
+    		├── .
     	├── config
+    		├── .
     	├── testdata
+    		├── .
     	├── run.js
+    	├── testdata.js
     ├── .gitignore
     ├── docker-compose.yml
     ├── Dockerfile
@@ -71,6 +75,10 @@ Install ***node.js*** and ***npm*** from the below link:
 
 `$ npm install mocha-html-reporter --save`
 
+`$ npm install logger --save`
+
+`$ npm install fs --save`
+
 `$ npm install convert-csv-to-json --save`
 
 #### Install dependencies using the makefile (alternative installation of dependencies)
@@ -92,10 +100,11 @@ Run the tests from the Makefile
 
 `$ make all`
 
-To view the Test report, run the following command
+To view the test report, run the following command:
 `$ open mochawesome-report/mochawesome.html`
 
 #### Run the API tests inside a docker container
 
 `$ docker-compose build && docker-compose up`
+
 `$ docker-compose logs` - To see the results in the last ran docker container
